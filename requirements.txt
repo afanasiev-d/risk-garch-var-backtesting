@@ -1,0 +1,16 @@
+# FX Value-at-Risk with GARCH-Type Models
+# Python 3.11+   —   install with:  pip install -r requirements.txt
+#
+# Tested with: arch 8.0.0 · pandas 2.2.3 · numpy 2.2.5 · scipy 1.15.3
+#              statsmodels 0.14.4 · matplotlib 3.10.0 · yfinance
+
+arch>=7.0            # GARCH / EGARCH / GJR estimation and VaR quantiles
+yfinance>=0.2.40     # daily FX prices from Yahoo Finance
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11          # chi-square statistics for the backtests
+statsmodels>=0.14    # ADF, ARCH-LM and Ljung-Box diagnostics
+matplotlib>=3.7      # figures
+
+# only needed to open / run the notebook
+jupyterlab>=4.0
