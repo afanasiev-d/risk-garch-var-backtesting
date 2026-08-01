@@ -134,7 +134,7 @@ Data is pulled live from Yahoo Finance, so nothing is shipped in the repo. The r
 ~10k models and runs in a couple of minutes; the in-sample and plotting cells are near-instant.
 </details>
 
-## Limitations &amp; what I'd do next
+## Limitations &amp; potential extensions
 
 - **No multiple-testing correction.** With 9 specs × 3 tests × 2 levels × 3 pairs, some passes are luck; a
   Model Confidence Set or Hansen's SPA test on a quantile loss is the principled fix.
